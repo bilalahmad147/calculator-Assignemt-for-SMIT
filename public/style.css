@@ -1,5 +1,5 @@
 input{
-    width: 90%;
+    width: 80%;
     height: 30px;
     border-radius: 10px;
     border: 2px solid black;
@@ -11,7 +11,8 @@ input{
 .main{
     border: 2px solid black;
     text-align: center;
-    width: 400px;
+    max-width: 400px;
+    min-width: 100px;
     margin: 0 auto;
     background-color: rgb(231, 228, 228);
 }
